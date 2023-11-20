@@ -1,0 +1,222 @@
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0ad6cc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button:hover {background-color: #18d1c8}
+  
+  .button:active {
+    background-color: #18d1c8;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
+
+  #titulo{
+      font-style: Papyrus;
+      font-size: 60px;
+      color: rgb(221, 206, 206);
+      text-align: center;
+      /* text-decoration: red wavy underline; */
+      text-decoration-thickness: 2px;
+      letter-spacing: 13px;
+      word-spacing: 25px
+  }
+
+  .text1{
+    font-style: Papyrus;
+      font-size: 20px;
+      color: rgb(156, 192, 216);
+      text-align: center;
+      /* text-decoration: red wavy underline; */
+      text-decoration-thickness: 2px;
+      letter-spacing: 8px;
+      word-spacing: 17px
+  }
+
+  .text2{
+    font-style: Papyrus;
+    font-size: 15px;
+    color: rgb(221, 206, 206);
+    text-align: center;
+    /* text-decoration: red wavy underline; */
+    text-decoration-thickness: 2px;
+    letter-spacing: 8px;
+    word-spacing: 17px
+}
+
+.credit{
+    margin:0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 0px;
+    font-style: Papyrus;
+      font-size: 15px;
+      color: rgb(221, 206, 206);
+      text-align: center;
+      /* text-decoration: red wavy underline; */
+      text-decoration-thickness: 2px;
+      letter-spacing: 8px;
+      word-spacing: 17px;
+      padding: 20px;
+    
+}
+
+  .center{
+    align-content: left;
+    margin:0 auto;
+    width: 30%;
+    border-collapse: collapse;
+    border: 0px;
+    font-style: Papyrus;
+      font-size: 15px;
+      color: rgb(221, 206, 206);
+      text-align: left;
+      /* text-decoration: red wavy underline; */
+      text-decoration-thickness: 2px;
+      letter-spacing: 8px;
+      word-spacing: 17px;
+  }
+
+.foto1 { 
+  margin: 0px; border: 0px solid black; float: right; width: 150px; }
+
+.foto2 { 
+  margin: 0px; border: 0px solid black; width: 150px; }
+  
+/* tamaño*/
+  table {
+    margin:0 auto;
+    table-layout: fixed;
+    width: 65%;
+    border-collapse: collapse;
+    border: 0px;
+  }
+  
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 25%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 25%;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+
+
+/*letra*/
+
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    
+  }
+  
+  thead th, tfoot th {
+    font-style: Papyrus;
+    padding: 8px;
+    font-size: 15px;
+
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+    font-size: 13px;
+
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+
+
+/*head*/
+  thead, tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(1, 49, 25, 0.075), rgba(2, 71, 48, 0.5));
+    border: 0px ;
+  }
+
+
+
+
+
+  tbody tr:nth-child(odd) {
+    background-color: rgb(248, 196, 113);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(229, 152, 102);
+  }
+
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+
+  table {
+    background-color: #07c293;
+  }
+
+  caption {
+    font-family: 'Papyrus';
+    padding: 20px;
+    font-style: bold;
+    caption-side:top;
+    color: rgb(0, 17, 11);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+
+
+.error{
+  margin:0 auto;
+  width: 30%;
+  border-collapse: collapse;
+  border: 0px;
+  font-style: Papyrus;
+    font-size: 20px;
+    color: rgb(221, 206, 206);
+    text-align: center;
+    /* text-decoration: red wavy underline; */
+    text-decoration-thickness: 2px;
+    letter-spacing: 8px;
+    word-spacing: 17px;
+}
