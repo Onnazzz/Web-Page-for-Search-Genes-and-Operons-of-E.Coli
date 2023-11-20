@@ -1,6 +1,14 @@
 # Web-Page-for-Search-Genes-and-Operons-of-E.Coli
 
+Index.html is the script of the principal page of the web page. 
 
+All other files have the different scripts to obtain the required data. 
+
+For example:  
+
+  -gene.php -> obtained the information of the gene.
+  -seqg.php -> obtained the sequence of the gene.
+  -style2.css -> is one of the three format pages we used. 
 
 
 Objective: 
@@ -18,3 +26,4 @@ Authors:
 
   -Rodrigo Aguilar Diaz ; Undergraduate student in Genomic sciences at Universidad Nacional Autonoma de México (UNAM)
 
+Image credit goes to Rodrigo.
