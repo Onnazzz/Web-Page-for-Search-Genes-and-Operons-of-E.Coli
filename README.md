@@ -2,6 +2,8 @@
 
 Index.html is the script of the principal page of the web page. 
 
+Image files are used either as buttons or solely for decoration. (Image credit goes to Rodrigo)
+
 All other files have the different scripts to obtain the required data. 
 
 For example:  
@@ -26,4 +28,3 @@ Authors:
 
   -Rodrigo Aguilar Diaz ; Undergraduate student in Genomic sciences at Universidad Nacional Autonoma de México (UNAM)
 
-Image credit goes to Rodrigo.
