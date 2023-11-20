@@ -9,7 +9,9 @@ All other files have the different scripts to obtain the required data.
 For example:  
 
   -gene.php -> obtained the information of the gene.
+  
   -seqg.php -> obtained the sequence of the gene.
+  
   -style2.css -> is one of the three format pages we used. 
 
 
