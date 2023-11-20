@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title> Formulario </title>
+		
+		<link rel="icon" href = "cherisombrero.png">
+
+		<link rel="stylesheet" type="text/css" href="style2.css" />
+
+		<script language = "JavaScript">
+			function validate(){
+				var  gene_txt = document.getElementById('bus').value;
+				        //alert (gene_txt);  así puedes saber si esta tomando lo que puso. 
+
+				if(gene_txt==null || gene_txt.length==0 || /^\s+$/.test(gene_txt)){
+					// alerta de que el input esta vacio o con espacion blancos
+					document.getElementById("vacio").style.visibility = "visible";
+					return false;
+				}
+
+				if(!document.getElementById('tipo').checked && !document.getElementById('tipo2').checked){
+					alert("Selecciona al menos una opcion");
+					return false;
+				}
+				return true;
+				
+				
+			}
+			function clean(){
+			document.getElementById("vacio").style.visibility = "hidden";
+			}
+			
+		</script>
+
+<style> 
+	body { 
+		background-image: url("https://i.pinimg.com/736x/0c/1f/74/0c1f748f5702c12423c3720d4cce4cc4.jpg"); 
+		background-color: black;
+		background-position: center; 
+		background-size: cover;
+		background-repeat: no-repeat; 
+		color: black;
+	} 
+</style>
+
+
+	</head>
+
+
+	<body>	
+		<br>	
+		<div align="center">
+		<div align="center"><img src="cherifamilia.png" style="width:200px" /></div>
+		<h1 id="titulo"> CHERI la COLI </h1>	
+		<br>
+		<p class="text1"> Esta pagina busca genes u operones de<i> Escherichia Coli</i> </p>
+			<br><br>
+
+		
+		<p class="text2">Ingrese su Busqueda:</p>
+		<div class="center">
+				<form id= "form" name="form"  method="get" action="resultado.php" onsubmit="return validate()">
+				<input id="bus" name="bus" type="text" size="15" onclick="clean();"/>
+				<span id="vacio" style="visibility:hidden" > <img class="foto1" src="cherienoja.png" /><br> </span>
+				<input id="tipo" type="checkbox" name="tipo" value="g" checked="checked"> Gen <br>
+				<input id="tipo2" type="checkbox" name="tipo2" value="o" checked="checked"> Operon<br> 
+
+				<br>
+				<input class="button" id = "b1" type="submit" name="SubmitGet" value="Buscar" />		
+			</form>  
+		</div>
+		<br><br>
+		<div class="credit">
+			<img class="foto2" src="colis2.png" />
+			<br> Rodrigo y Onna 
+		</div>
+
+	</body>
+</html>
